@@ -1,0 +1,14 @@
+<div>
+  <div *ngFor="let forecast of weatherForecasts">
+    <div>
+      <span>Max Temp:</span>
+      {{forecast.max_temp}}
+      <span> Date:</span>
+      {{forecast.valid_date}}
+      <span> Wind Speed:</span>
+      {{forecast.wind_spd}}
+      <span> Wind Direction:</span>
+      {{forecast.wind_cdir}}
+    </div>
+  </div>
+</div>
